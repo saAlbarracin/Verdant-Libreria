@@ -1,0 +1,92 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#encabezado {
+    background-color: #660066;
+}
+#encabezado h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    color: #fff;
+    
+}
+#encabezado p {
+    font-size: 25px;
+    padding: 9px;
+    margin: 7px;
+    color: #fff;
+}
+#encabezado button {
+    background: #b92f2f;
+    color: white;
+    font-weight: bold;
+}
+
+#navegacion li {
+    color: #232323;
+    display: inline-block;
+    margin: -15px;
+    padding: 14px;
+    float: right;
+    list-style: none;
+}
+#navegacion a {
+color: #232323;
+margin: 60px;
+font-weight: bold;
+}
+#navegacion a {
+    list-style: none;
+    text-decoration: none;
+}
+#navegacion a:hover {
+ font-weight: bold;
+ background-color: white;
+ color: black;
+}
+nav { 
+        position: absolute;
+        right: 10px;
+        background-color: #b92f2f;
+        color: #232323;
+        padding: 1px;
+        margin-top: -23px;
+        height: 50px;
+}
+#obras-destacadas {
+    display: inline-block;
+    
+    
+}
+#obras-destacadas img {
+    margin: 20px;
+    padding: 15px;
+    width: 250px;
+    object-fit: cover;
+    opacity: 0.7;
+    border: 3px color: #b92f2f solid;
+}
+#obras-destacadas img:hover {
+    opacity: 2;
+    background-color: antiquewhite;
+    box-shadow: 10px 10px 10px #888;
+    top: 5px;
+    left: 5px;
+}
+#obras-destacadas h4 {
+    color: #EFEFEFEF;
+    background: #660066;
+    padding: 5px;
+    width: 150px;
+    margin-left: 170px;
+}
+#obras-destacadas h3, p {
+    margin-left: 60px;
+    margin-bottom: 8px;
+    padding: 0px;
+}
+    h2 {
+        border-bottom: 3px solid #b92f2f;
+    }
