@@ -9,8 +9,8 @@
             <div id="encabezado">  
                 <h1 class="titulo" >Verdant Libros</h1>
                 <p>Los mejores libros para tu Colección</p>
-                <input type="text">
-                <span><button>Buscar</button></span>
+                <input type="text" id="search-input">
+                <span><button id="search-button">Buscar</button></span>
     </div> 
     </header>
     <nav>
@@ -24,74 +24,15 @@
     </nav>
     <section>
         <h2>Colecciones Exclusivas</h2>
-        <div id="obras-destacadas">
-            <h4>Envio Gratis</h4>
-            <img src="images/janeausten.jpg" >
-            <h3>Jane Austen</h3>
-            <p>$7000</p> 
-        </div>
-
-        <div id="obras-destacadas">
-            <h4>Envio Gratis</h4>
-            <img src="images/virginiawolf.png" >
-            <h3>Virginia Wolf</h3>
-            <p>$7500</p> 
-        </div>
-
-        <div id="obras-destacadas">
-            <h4>Envio Gratis</h4>
-            <img src="images/homero.jpg" >
-            <h3>Sherlock Homes</h3>
-            <p>$4000</p> 
-        </div>
-
-        <div id="obras-destacadas">
-            <h4>Envio Gratis</h4>
-            <img src="images/hplovecraft.png" >
-            <h3>H.P Lovecraft</h3>
-            <p>$9600</p> 
-        </div>
-        <div id="obras-destacadas">
-            <h4>Envio Gratis</h4>
-            <img src="images/clasicosterror.jpg" >
-            <h3>Clasicos de Terror</h3>
-            <p>$8200</p> 
-        </div>
+        <div id="container-destacados"></div>
     </section>
     <article>
         <h2>Quedate en casa Leyendo</h2>
-        <div id="libros-casa">
-            <img src="images/article/bajareslopeor.png" >
-            <h3>Enriquez Mariana</h3>
-            <p>$1030</p> 
-        </div>
-        <div id="libros-casa">
-            <img src="images/article/desiertosonoro.png" >
-            <h3>Luiselli Valeria</h3>
-            <p>$1095</p> 
-        </div>
-        <div id="libros-casa">
-            <img src="images/article/elnerviooptico.png" >
-            <h3>Gainza Maria</h3>
-            <p>$1030</p> 
-        </div>
-        <div id="libros-casa">
-            <img src="images/article/prohibidomoriraqui.png" >
-            <h3>Taylor Elizabeth</h3>
-            <p>$1060</p> 
-        </div>
-        <div id="libros-casa">
-            <img src="images/article/tambienestopasara.png" >
-            <h3>Busquets Milena</h3>
-            <p>$1030</p> 
-        </div>
-        <div id="libros-casa">
-            <img src="images/article/transradio.png" >
-            <h3>Leonard Maru</h3>
-            <p>$850</p> 
-        </div>
+        <div id="container-casa"></div>
         <audio src=""></audio>
     
     </article>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
