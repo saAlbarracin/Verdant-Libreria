@@ -1,0 +1,10 @@
+{
+  "name": "verdant-libros",
+  "version": "1.0.0",
+  "description": "Pagina web realizada con HTML y CSS. Sobre una colección simple de libros, con secciones de terror y suspenso.",
+  "scripts": {
+    "start": "echo 'Open index.html in your browser'"
+  },
+  "author": "Verdant Libros",
+  "license": "ISC"
+}

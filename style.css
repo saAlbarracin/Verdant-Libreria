@@ -55,57 +55,60 @@ font-weight: bold;
  background-color: white;
  color: black;
 }
-#obras-destacadas {
+#obras-destacadas, .obras-destacadas {
     display: inline-block;
     border: 3px color:springgreen solid;
-    
+    vertical-align: top;
+    margin: 10px;
 }
-#obras-destacadas img {
+#obras-destacadas img, .obras-destacadas img {
     margin: 20px;
     padding: 15px;
     width: 300px;
     object-fit: cover;
     opacity: 0.7;
 }
-#obras-destacadas img:hover {
-    w
+#obras-destacadas img:hover, .obras-destacadas img:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    transition: 0.3s;
 }
-#obras-destacadas h4 {
+#obras-destacadas h4, .obras-destacadas h4 {
     color: #EFEFEFEF;
     background: #232323;
     padding: 5px;
     width: 150px;
     margin-left: 170px;
 }
-#obras-destacadas h3, p {
+#obras-destacadas h3, p, .obras-destacadas h3 {
     margin-left: 60px;
     margin-bottom: 8px;
     padding: 0px;
 }
 
-#libros-casa img{
+#libros-casa img, .libros-casa img{
     width: 450px;
     height: 300px;
     margin: 42px;
     padding: 10px;
 }
-#libros-casa {
+#libros-casa, .libros-casa {
     display: inline-block;
+    vertical-align: top;
 }
-#libros-casa img {
-    
+#libros-casa img, .libros-casa img {
     width: 200px;
     object-fit: cover;
     height: 100;
 }
-#libros-casa h3, p {
+#libros-casa h3, p, .libros-casa h3 {
     margin-left: 60px;
     margin-bottom: 8px;
     padding: 0px;
     color: black;
     
 }
-#libros-casa h3 {
+#libros-casa h3, .libros-casa h3 {
     color: #004983;
 }
 
